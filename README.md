@@ -11,10 +11,23 @@ The system uses **four intelligent agents** — each with specialized roles — 
 | Feature | Description |
 |--------|-------------|
 | 🧩 **Multi-Agent Coordination** | Powered by **LangGraph** for dynamic workflow orchestration |
-| ⚡ **Groq LLM (Llama 3.3 70B)** | Ultra-fast inference for real-time reasoning |
+| ⚡ **Groq LLM** | Ultra-fast inference for real-time reasoning |
 | 🔧 **MCP Tool Integration** | Seamless function calling via `langchain_mcp_adapters` |
 | 📊 **Stock Market Research & Technical Analysis** | Fundamental + technical indicators evaluation |
 | 📰 **News Summarization & Sentiment Classification** | Real-time news impact scoring |
 | 💰 **Buy/Sell Recommendations with Target Prices** | Actionable trading signals with entry/exit levels |
 | 🌐 **Async and Structured Execution** | Efficient, scalable, and modular design |
 
+## 🧠 Agent Overview
+
+| Agent Name              | Description |
+|-------------------------|-------------|
+| **stock_finder_agent** | Identifies **2 promising CSE-listed stocks** based on **volume, news, and performance**. |
+| **market_data_agent**  | Gathers **recent market data** (price, volume, RSI, trends) for selected stocks. |
+| **news_analyst_agent** | Finds and **summarizes latest stock news**, labeling sentiment as **positive**, **neutral**, or **negative**. |
+| **price_recommender_agent** | Provides **Buy/Sell/Hold recommendations** and **target price suggestions**. |
+| **supervisor**         | **Coordinates all agents step-by-step** to complete the workflow. |
+
+---
+
+> The **supervisor agent** acts as the orchestrator, ensuring structured, sequential execution across all specialized agents using **LangGraph state graphs**.
