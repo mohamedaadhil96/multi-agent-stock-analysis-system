@@ -1,4 +1,4 @@
-# 🧠 Multi-Agent Stock Analysis System (CSE + Groq + MCP)
+# 🧠 Multi-Agent Stock Analysis System for Colombo Stock Exchange
 
 This project is a **multi-agent AI system** built using **LangGraph**, **Groq LLM**, and **MCP tools** to analyze, research, and recommend promising **Colombo Stock Exchange (CSE)** stocks for **short-term trading**.
 
