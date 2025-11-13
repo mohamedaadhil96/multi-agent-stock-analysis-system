@@ -33,7 +33,7 @@ The system uses **four intelligent agents** — each with specialized roles — 
 > The **supervisor agent** acts as the orchestrator, ensuring structured, sequential execution across all specialized agents using **LangGraph state graphs**.
 
 
-> ![Multi-Agent Stock Analysis UI](https://github.com/mohamedaadhil96/multi-agent-stock-analysis-system/blob/d1fade02a144ef556f0d66e56ec7448aaaf41942/Screenshot%202025-11-13%20153759.png)
+![Multi-Agent Stock Analysis UI](https://github.com/mohamedaadhil96/multi-agent-stock-analysis-system/blob/d1fade02a144ef556f0d66e56ec7448aaaf41942/Screenshot%202025-11-13%20153759.png)
 
 
 </div>
